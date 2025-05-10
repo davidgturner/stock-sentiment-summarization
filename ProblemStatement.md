@@ -20,35 +20,3 @@ Data Dictionary
              *  1: Positive
              *  0: Neutral
              * -1: Negative
-
-More notes
-The final notebook should be well-documented, with inline comments explaining the functionality of code and markdown cells containing comments on the observations and insights.
-The notebook should be run from start to finish in a sequential manner before submission.
-
-Please refer to the FAQ page for common project-related queries.
- 
-
-Scoring guide (Rubric) - Stock Market News Sentiment Analysis and Summarization - Project Rubric
-Criteria	Points
-Exploratory Data Analysis
-- Problem definition - Univariate analysis - Bivariate analysis - Use appropriate visualizations to identify the patterns and insights - Key meaningful observations on individual variables and the relationship between variables
-8
-Data Preprocessing
-- Split the target variable and predictors - Split the data into train, validation, and test sets
-2
-Word Embeddings
-- Using Word2Vec - Using GloVe - Using Sentence Transformer
-10
-Sentiment Analysis
-- Comment on which metric to use and why - Build a ML model with each of the following embedding techniques - Word2Vec - GloVe - Sentence Transformer - Perform hyperparameter tuning for the ML model for each of the following embedding techniques - Word2Vec - GloVe - Sentence Transformer - Comment on model performance across different metrics - Choose the best model from the ones built with proper reasoning - Check the performance of the final model on the test set Note: The ML model to use is at the discretion of the learner.
-16
-Content Summarization
-- Group the data at a week-level - Load the large language model from Hugging Face - Create a function to define the model parameters and generate a response - Define the instruction for the task (the task is to identify the top three positive and negative events from the week that are likely to impact the stock price) - Apply the response generation function to get an output from the model - Create a DataFrame containing the necessary fields from the model's output in a structured manner
-12
-Actionable Insights and Recommendations
-- Share your observations and insights from the analysis conducted - Provide recommendations for the business
-4
-Presentation/Notebook - Overall Quality
-- Structure and flow - Crispness - Visual appeal - All key insights and recommendations covered? OR - Structure and flow - Well commented code - All key insights and recommendations covered?
-8
-Points	60
