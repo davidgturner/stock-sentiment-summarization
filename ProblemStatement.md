@@ -1,5 +1,5 @@
+Problem Statement - Stock Market News Sentiment Analysis and 
 
-Problem Statement - Stock Market News Sentiment Analysis and Summarization
 Business Context
 The prices of the stocks of companies listed under a global exchange are influenced by a variety of factors, with the company's financial performance, innovations and collaborations, and market sentiment being factors that play a significant role. News and media reports can rapidly affect investor perceptions and, consequently, stock prices in the highly competitive financial industry. With the sheer volume of news and opinions from a wide variety of sources, investors and financial analysts often struggle to stay updated and accurately interpret its impact on the market. As a result, investment firms need sophisticated tools to analyze market sentiment and integrate this information into their investment strategies.
  
@@ -52,9 +52,3 @@ Presentation/Notebook - Overall Quality
 - Structure and flow - Crispness - Visual appeal - All key insights and recommendations covered? OR - Structure and flow - Well commented code - All key insights and recommendations covered?
 8
 Points	60
-
-
-## Export notebook to a HTML file
-
-``` cd .\Project6_StockSentiment\ ```
-``` jupyter nbconvert --execute --to html .\NLP_Project_Full_Code_Mod.ipynb ```
